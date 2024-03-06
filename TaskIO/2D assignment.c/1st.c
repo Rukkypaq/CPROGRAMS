@@ -21,7 +21,7 @@ void startGame (){
 
     int userGuess;
     do{
-        printf("Guess any number between 0 and 99:  ");
+        printf("Guess any number between 0 and 99: ");
         scanf("%d", &userGuess);
         if(userGuess == R){
         printf("CONGRATULATIONS, YOU JUST WON $1,000,000 !!!\n\n");
