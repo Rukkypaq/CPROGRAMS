@@ -5,7 +5,7 @@
 int randomNumber (int n){
     srand(time(NULL));
     long r = rand();
-    int random = r % n;
+    int random = r % n; 
     return random;
 }
 
